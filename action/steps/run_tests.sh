@@ -25,9 +25,11 @@ case $TEST_MODE in
   editmode)
     echo "Edit mode selected for testing."
     EDIT_MODE=true
+    PLAY_MODE=false
     ;;
   playmode)
     echo "Play mode selected for testing."
+    EDIT_MODE=false
     PLAY_MODE=true
     ;;
   *)
