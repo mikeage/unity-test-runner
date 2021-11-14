@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+set -x
 #
 # Set and display project path
 #
